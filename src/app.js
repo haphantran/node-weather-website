@@ -57,6 +57,7 @@ app.get('/weather',(req,res) => {
                 error
             })
         }
+        console.log(latitude,longitude)
         forecast(latitude, longitude,  (error, forecast) => {
             if (error) {
                 return res.send({
