@@ -40,7 +40,7 @@ app.get('/help',(req,res) => {
     res.render('help', {
         title: 'Help',
         name: 'Haphan Tran' ,
-        helpMessage: 'This is the help message'
+        helpMessage: 'This application is created by HaPhan Tran. It uses the data from mapbox and darksky'
     })
 })
 app.get('/weather',(req,res) => {
